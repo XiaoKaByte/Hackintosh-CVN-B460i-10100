@@ -1,16 +1,15 @@
 <p align="center">
-	<strong>Hackintosh-CVN-B460i-10100</strong>
+	<strong>Hackintosh-CVN-B460i-10100</strong><br>
+  <strong>Big Sur+i3-10100+CVN B460i Gaming V20</strong>
 </p>
 <p align="center">
     <a href="https://github.com/xiaoka-li/Hackintosh-CVN-B460i-10100">
-      <img alt="OpenCore" src="https://img.shields.io/badge/OpenCore-0.6.2-brightgreen">
+      <img alt="OpenCore" src="https://img.shields.io/badge/OpenCore-0.6.3-brightgreen">
     </a>
     <a href="https://github.com/xiaoka-li/Hackintosh-CVN-B460i-10100">
       <img alt="MacOS" src="https://img.shields.io/badge/MacOS-BIgSur-brightgreen"/>
     </a>
 </p>
-
-> Big Sur+i3-10100+CVN B460i Gaming V20
 
 ### 硬件配置清单
 
@@ -30,18 +29,27 @@
 ### 使用工具及版本
 
 - **系统版本：BigSur**
-- **引导版本：OpenCore 0.6.2**
+- **引导版本：OpenCore 0.6.3**
 
 ### 目前系统完善状态
 
 > 网卡型号为 INTEL AX200
 
-- [x] 睡眠正常
+- [x] 短睡眠正常
 - [x] 核显驱动正常
 - [x] 蓝牙驱动正常
 - [x] WIFI 驱动正常
 - [x] AppleId 正常
-- [x] 有限网卡正常
+- [x] 有线网卡正常
 - [x] AirPort 正常
-- [ ] 开机 Logo 第二阶段变大
-- [ ] 核显频率不正常
+- [ ] 核显频率达不到1.2hz，只能到1.1hz
+- [ ] 长时间睡眠有问题
+- [ ] HDMI没有进行测试，如果黑屏需要进行hdmi修复
+
+### 总结
+**本人小白一枚，发现没有同配置，全是跟着opencore官方安装教程进行安装调试，虽然不是100%完美，但已经满足日常使用需求，黑苹果的乐趣在于折腾！**
+
+### 感谢
+* opencore 
+* OpenIntelWireless
+* 黑果小兵
